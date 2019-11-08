@@ -1,0 +1,74 @@
+ <div>
+        <h3>{{titulo}}</h3>
+    </div>
+ <div class="row" *ngIf="peliculas" >
+       <div class="col-md-6">
+          <div class="row">
+              <div class="col-md-12 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculas[0] | peliculaImagen )+')' }"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculas[1] | peliculaImagen )+')' }"></div>
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculas[2] | peliculaImagen )+')' }"></div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          
+          <div class="row">
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculas[3] | peliculaImagen )+')' }"></div>
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculas[4] | peliculaImagen )+')' }"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculas[5] | peliculaImagen )+')' }"></div>
+        </div>
+        </div>
+    </div>
+
+     <div class="row" *ngIf="peliculasKids" >
+       <div class="col-md-6">
+          <div class="row">
+              <div class="col-md-12 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculasKids[0] | peliculaImagen )+')' }"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculasKids[1] | peliculaImagen )+')' }"></div>
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculasKids[2] | peliculaImagen )+')' }"></div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          
+          <div class="row">
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculasKids[3] | peliculaImagen )+')' }"></div>
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculasKids[4] | peliculaImagen )+')' }"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculasKids[5] | peliculaImagen )+')' }"></div>
+        </div>
+        </div>
+    </div>
+
+     <div class="row" *ngIf="peliculaAno" >
+       <div class="col-md-6">
+          <div class="row">
+              <div class="col-md-12 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculaAno[0] | peliculaImagen )+')' }"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculaAno[1] | peliculaImagen )+')' }"></div>
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculaAno[2] | peliculaImagen )+')' }"></div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          
+          <div class="row">
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculaAno[3] | peliculaImagen )+')' }"></div>
+            <div class="col-md-6 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculaAno[4] | peliculaImagen )+')' }"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 div-pic-1" [ngStyle]="{ 'background-image': 'url('+( peliculaAno[5] | peliculaImagen )+')' }"></div>
+        </div>
+        </div>
+    </div>
